@@ -47,7 +47,7 @@ Resources:
       ImageId: !Ref 'LatestAmiId'
       Tags:
         - Key: "Name"
-          Value: "IGTI - Bootcamp Profissional AWS"
+          Value: "cloud-formation-ec2-eip-sg"
   InstanceSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
